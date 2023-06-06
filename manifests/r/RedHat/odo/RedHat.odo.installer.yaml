@@ -1,0 +1,14 @@
+# Created using wingetcreate 1.2.6.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: RedHat.odo
+PackageVersion: 3.11.0
+Installers:
+- Architecture: x64
+  InstallerType: portable
+  InstallerUrl: https://developers.redhat.com/content-gateway/file/pub/openshift-v4/clients/odo/v3.11.0/odo-windows-amd64.exe
+  InstallerSha256: 62D58F9F42FF53197CC27E318FF6BCE298C218AE2C252E3F582921C0A9BD886A
+  Commands:
+  - odo
+ManifestType: installer
+ManifestVersion: 1.4.0
